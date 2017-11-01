@@ -1,7 +1,9 @@
 language: csharp
-mono: none
-dotnet: 1.0.0
 dist: trusty
+sudo: required
+mono: none
+dotnet: 1.0.0-preview2-1-003177
+
 install:
  - dotnet restore
 script:
